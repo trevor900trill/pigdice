@@ -63,19 +63,15 @@ a{
   width:100%;
   height:100%;
   background-color: white;
+  background-image: url("http://sandbox.unclesgames.com/images/products/00515_big.jpg");
 }
 .innerfirstpage{
   width: 100%;
   height:90px;
-  background-color: inherit;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px .2px black;
-  -webkit-box-shadow: 0px 0px .2px black;
-  -moz-box-shadow: 0px 0px .2px black;
-  -o-box-shadow: 0px 0px .2px black;
-  -ms-box-shadow: 0px 0px .2px black;
 }
 ::-webkit-scrollbar{
   width: 5px;
