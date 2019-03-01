@@ -1,0 +1,129 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  overflow: hidden;
+}
+.user{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position:absolute;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  background-color: white;
+  width: 300px;
+  padding: 10px;
+  min-height: 669px;
+  box-shadow: 0px 0px .2px black ;
+  -webkit-box-shadow: 0px 0px .2px black ;
+  -moz-box-shadow: 0px 0px .2px black ;
+  -ms-box-shadow: 0px 0px .2px black ;
+  -o-box-shadow: 0px 0px .2px black ;
+}
+.inneruser{
+  background: white;
+  overflow: auto;
+  width: 100%;
+  height: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.downwarduser{
+  background-color: inherit;
+}
+.playername{
+  font-family: 'Tangerine', cursive;
+}
+.userscorecont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: inherit;
+}
+.userscorebox{
+  display: block;
+  background-color: inherit;
+}
+.namebox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: inherit;
+  margin-bottom: 40px;
+}
+.scoreboard{
+  min-height: 669px;
+}
+.npc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  background-color: white;
+  width: 300px;
+  min-height: 669px;
+  box-shadow: 0px 0px .2px black ;
+  -webkit-box-shadow: 0px 0px .2px black ;
+  -moz-box-shadow: 0px 0px .2px black ;
+  -ms-box-shadow: 0px 0px .2px black ;
+  -o-box-shadow: 0px 0px .2px black ;
+}
+.innernpc{
+  background: white;
+  overflow: auto;
+  width: 100%;
+  height: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.downwardnpc{
+  background-color: inherit;
+}
+.npcnamebox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: inherit;
+  margin-bottom: 40px;
+}
+.npcplayername{
+  font-family: 'Tangerine', cursive;
+}
+.npcuserscorecont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: inherit;
+}
+.npcuserscorebox{
+  display: block;
+  background-color: inherit;
+}
+.innerpaging{
+  background: white;
+  width:1299px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: #b1b2b5;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #cfd2d6;
+}
+::-webkit-scrollbar-track{
+  background-color: white;
+}
