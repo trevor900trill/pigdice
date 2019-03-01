@@ -4,7 +4,79 @@ body{
   border: 0px;
   overflow: hidden;
 }
-
+a{
+  text-decoration:none;
+  color: #1ebbff;
+}
+.titlebox{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.title{
+  font-family: 'Tangerine', cursive;
+  font-size: 90px;
+  color: #1ebbff;
+}
+.introductorybuttons{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.innerbtns{
+  width:100%;
+  height: 100%;
+  overflow: hidden;
+}
+.hardmode:hover{
+  transform: scale(1.3);
+}
+.easymode:hover{
+  transform: scale(1.3);
+}
+.hardmode{
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:30px;
+  transition: transform .5s;
+}
+.easymode{
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:30px;
+  transition: transform .5s;
+}
+.firstPage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width:100%;
+  height:100%;
+  background-color: white;
+}
+.innerfirstpage{
+  width: 100%;
+  height:90px;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px .2px black;
+  -webkit-box-shadow: 0px 0px .2px black;
+  -moz-box-shadow: 0px 0px .2px black;
+  -o-box-shadow: 0px 0px .2px black;
+  -ms-box-shadow: 0px 0px .2px black;
+}
 ::-webkit-scrollbar{
   width: 5px;
 }
