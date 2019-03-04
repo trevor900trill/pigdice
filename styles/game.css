@@ -23,6 +23,7 @@ li{
 }
 .rerollbtn{
   transition: transform .2s;
+  cursor: pointer;
 }
 .userresultlist{
   height: 100%;
