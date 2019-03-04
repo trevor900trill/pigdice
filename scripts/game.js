@@ -95,7 +95,58 @@ var addresultuser = () => {
 
   }
 };
-
+var continuefunc = () => {
+  var num = Math.floor(Math.random()*6)+1;
+  if (num === 1 )
+  {
+    //user scores nothing anf=d has to hold;
+    //function for computer to roll dice
+    document.getElementsByClassName('errorstatuscompon')[0].textContent = "";
+    document.getElementsByClassName('successstatuscompon')[0].textContent = "roll the dice";
+    //hide the button to prevent further clicks
+    $(".buttonbox").show();
+    //userscores nothing dont push to array;
+    addresultcomp();
+    playereasyroll();
+  }
+  else
+  {
+    //stop it;
+    document.getElementsByClassName('errorstatuscompon')[0].textContent = "";
+    document.getElementsByClassName('successstatuscompon')[0].textContent = "roll the dice";
+    easycomputerroll.push(num);
+    var render = document.getElementById("npclive");
+    render.innerHTML += "<li>"+num+"</li>";
+    $(".buttonbox").show();
+    difficultcomproll();
+  }
+}
+var difficultcomproll = () => {
+  var num = Math.floor(Math.random()*6)+1;
+  if (num === 1 )
+  {
+    //user scores nothing anf=d has to hold;
+    //function for computer to roll dice
+    document.getElementsByClassName('errorstatuscompon')[0].textContent = "";
+    document.getElementsByClassName('successstatuscompon')[0].textContent = "roll the dice";
+    //hide the button to prevent further clicks
+    $(".buttonbox").show();
+    //userscores nothing dont push to array;
+    addresultcomp();
+    playereasyroll();
+  }
+  else
+  {
+    //stop it;
+    document.getElementsByClassName('errorstatuscompon')[0].textContent = "";
+    document.getElementsByClassName('successstatuscompon')[0].textContent = "roll the dice";
+    easycomputerroll.push(num);
+    var render = document.getElementById("npclive");
+    render.innerHTML += "<li>"+num+"</li>";
+    $(".buttonbox").show();
+    continuefunc();
+  }
+};
 
 var playerdifficultroll = () => {
   //guess a number btn 1 - 6
@@ -112,7 +163,7 @@ var playerdifficultroll = () => {
     $(".buttonbox").hide();
     //userscores nothing dont push to array;
     setTimeout(function(){
-      easycomproll();
+      difficultcomproll();
     },2000);
   }
   else
@@ -137,6 +188,7 @@ var gamemode = () => {
   else
   {
     //level is hard
+    playerdifficultroll();
   }
 };
 
