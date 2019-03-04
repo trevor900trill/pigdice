@@ -15,7 +15,6 @@ var easycomproll = () => {
     $(".buttonbox").show();
     //userscores nothing dont push to array;
     addresultcomp();
-    playereasyroll();
   }
   else
   {
@@ -107,7 +106,6 @@ var continuefunc = () => {
     $(".buttonbox").show();
     //userscores nothing dont push to array;
     addresultcomp();
-    playereasyroll();
   }
   else
   {
@@ -133,7 +131,6 @@ var difficultcomproll = () => {
     $(".buttonbox").show();
     //userscores nothing dont push to array;
     addresultcomp();
-    playerdifficultroll();
   }
   else
   {
@@ -212,7 +209,7 @@ $(document).ready(function(){
     else if(checkLvl === "hard")
     {
       //the functionality for hard goes here
-      var name = prompt("What is you're name?");
+      var name = prompt("NEW  GAME:What is you're name?");
       document.getElementsByClassName("playername")[0].textContent = name;
       document.getElementsByClassName("levelof")[0].textContent = "  LEVEL : DIFFICULT";
     }

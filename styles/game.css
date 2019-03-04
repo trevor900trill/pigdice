@@ -29,11 +29,13 @@ li{
   height: 100%;
   background-color: inherit;
   margin-left:200px;
+  overflow: auto;
 }
 .npcresultlist{
   height: 100%;
   background-color: inherit;
   margin-right:200px;
+  overflow: auto;
 }
 .totalrollcount{
   background-color: pink;
