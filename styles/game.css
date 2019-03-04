@@ -46,6 +46,9 @@ li{
   align-items:center;
   padding:10px;
 }
+.npcactuallcount{
+  color: white;
+}
 .actuallcount{
   color: white;
 }

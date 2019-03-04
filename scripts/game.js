@@ -1,30 +1,47 @@
 //BUSIINESS LOGIC
 //easy LOGIC
 //rolls only once then stops
-var choice = ["stop","continue"];
-var easyroll = () => {
+var userscore;
+var comproll = () => {
+
+};
+var playereasyroll = (callback) => {
   //guess a number btn 1 - 6
   var num = Math.floor(Math.random()*6);
   if (num === 1 )
   {
     //user scores nothing anf=d has to hold;
+    //function for computer to roll dice
     alert("no reroll");
+    //hide the button to prevent further clicks
+    $(".buttonbox").hide();
   }
-  alert(num);
+  else
+  {
+    //continue;
+    alert(num);
+  }
 };
-
 //click handler
 var gamemode = () => {
   var checkLvl = sessionStorage.getItem("level");
   if(checkLvl === "easy")
   {
-    easyroll();
+    //level is easy
+    playereasyroll();
   }
   else
   {
-
+    //level is hard
   }
 };
+
+
+
+
+
+
+
 //USER INTERFACE LOGIC
 $(document).ready(function(){
     var checkLvl = sessionStorage.getItem("level");
