@@ -133,7 +133,7 @@ var difficultcomproll = () => {
     $(".buttonbox").show();
     //userscores nothing dont push to array;
     addresultcomp();
-    playereasyroll();
+    playerdifficultroll();
   }
   else
   {
