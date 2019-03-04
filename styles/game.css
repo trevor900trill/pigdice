@@ -4,6 +4,76 @@ body{
   border: 0px;
   overflow: hidden;
 }
+.buttonbox{
+  margin-top: 130px;
+  margin-left: 20px;
+}
+.rerollbtn:hover{
+  transform: scale(0.7);
+}
+h1,h2{
+  font-family: 'Tangerine', cursive;
+}
+li{
+  list-style: none;
+  color:pink;
+}
+.live{
+  overflow: auto;
+}
+.rerollbtn{
+  transition: transform .2s;
+}
+.userresultlist{
+  height: 100%;
+  background-color: inherit;
+  margin-left:200px;
+}
+.npcresultlist{
+  height: 100%;
+  background-color: inherit;
+  margin-right:200px;
+}
+.totalrollcount{
+  background-color: pink;
+  margin-top:15px;
+  margin-left: 20px;
+  min-width:130px;
+  height:100px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  padding:10px;
+}
+.actuallcount{
+  color: white;
+}
+.inner-user{
+  width:100%;
+  height: 100%;
+  display: flex;
+  background-color: inherit;
+}
+.innergamerpage{
+  width : 100%;
+  height : 1000%;
+  background-color: inherit;
+  position: fixed;
+}
+.user{
+  width:50%;
+  min-height: 669px;
+  background-color: white;
+  float: left;
+  height : 100%;
+}
+.against{
+  width:50%;
+  min-height: 669px;
+  background-color: #efefef;
+  float: right;
+  height : 100%;
+}
 ::-webkit-scrollbar{
   width: 5px;
 }

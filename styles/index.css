@@ -6,7 +6,7 @@ body{
 }
 a{
   text-decoration:none;
-  color: #1ebbff;
+  color: #f442eb;
 }
 .titlebox{
   width:100%;
@@ -18,7 +18,7 @@ a{
 .title{
   font-family: 'Tangerine', cursive;
   font-size: 90px;
-  color: #1ebbff;
+  color: #f442eb;
 }
 .introductorybuttons{
   width:100%;
