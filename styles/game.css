@@ -46,6 +46,20 @@ li{
   align-items:center;
   padding:10px;
 }
+.errorstatuscompon{
+  font-family: 'Tangerine', cursive;
+  font-size: 40px;
+  color: red;
+}
+.successstatuscompon{
+  font-family: 'Tangerine', cursive;
+  font-size: 40px;
+  color: green;
+}
+.statuscompon{
+  margin-left: 40px;
+  margin-top: 40px;
+}
 .npcactuallcount{
   color: white;
 }
