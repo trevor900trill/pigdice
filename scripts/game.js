@@ -49,7 +49,7 @@ var playereasyroll = () => {
   }
   else
   {
-    //continue;
+    //continue;]
     alert(num);
     userscorelist.push(num);
     var render = document.getElementById("live");
